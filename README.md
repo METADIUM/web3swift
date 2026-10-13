@@ -1,3 +1,8 @@
+> **METADIUM fork of [web3swift](https://github.com/web3swift-team/web3swift) 3.3.2.**
+> It has one change, the fix of web3swift-team/web3swift#910 (commit by Giacomo Leopizzi): `URLSession.data(for:)` returns `URLResponse` in the Xcode 27 SDK, so `Web3Core` did not build ([#916](https://github.com/web3swift-team/web3swift/issues/916)).
+> It exists so that [did-sdk-swift](https://github.com/METADIUM/did-sdk-swift) can be built with Xcode 27. Tag `3.3.2-metadium.1` is 3.3.2 plus that fix and nothing else.
+> Use the upstream package again when it has released the fix, and do not add other changes here.
+
 # web3swift
 **web3swift** is an iOS toolbelt for interaction with the Ethereum network.
 
